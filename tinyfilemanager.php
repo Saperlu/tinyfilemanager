@@ -58,7 +58,7 @@ $root_path = $_SERVER['DOCUMENT_ROOT'];
 $root_url = '';
 
 // Server hostname. Can set manually if wrong
-$http_host = $_SERVER['HTTP_HOST'];
+$http_host = $_SERVER['HTTP_HOST']."/uploads";
 
 // user specific directories
 // array('Username' => 'Directory path', 'Username2' => 'Directory path', ...)
